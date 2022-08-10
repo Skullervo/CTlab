@@ -8,10 +8,10 @@ The CTlab is virtually implemented medical imaging device. The CTlab simulator c
 
 The CTlab has been created with MATLAB's app designer feature. It offers its user the opportunity to adjust CT imaging parameters (image volume, scan angles, detector element size and detector width, noise, algorithm/geometry specific parameters), to select specific scan geometry, to observe projection data from selected imaging target with polychromatic x-ray spectrum, and to select the specific algorithm for image reconstruction (FBP, least squares, Tikhonov regularization). Key user groups for the simulator include medical physics, engineering, and radiographer students.
 
+Since the use of Astra toolbox is not possible on Mac computers, a slightly separate version of the program has been developed for this purpose. The Mac version does not support iterative reconstruction algorithms or fanflat beam geometry in X-ray projection detection.
 
 CTlab uses two external open source Matlab toolkits. Spektr 3.0 code is used to create a polychromatic X-ray spectrum for simulations and Astra toolbox is used to calculate reconstructions from polychromatic projection data (Not in the Mac version). The user must download both of the aforementioned Toolboxes and place them in Matlab's path in order for CTlab to work correctly. 
 
-Since the use of Astra toolbox is not possible on Mac computers, a slightly separate version of the program has been developed for this purpose. The Mac version does not support iterative reconstruction algorithms or fanflat beam geometry in X-ray projection detection.
 
 ![CT_lab_fig](https://user-images.githubusercontent.com/110446843/183819505-52c6244f-7684-43b9-95d0-7feff60b0779.png)
 
