@@ -13,10 +13,12 @@ CTlab uses two external open source Matlab toolkits. Spektr 3.0 code is used to 
 
 Since the use of Astra toolbox is not possible on Mac computers, a slightly separate version of the program has been developed for this purpose. The Mac version does not support iterative reconstruction algorithms or fanflat beam geometry in X-ray projection detection.
 
-## Updated version
-
-The next version will include a new Imaging target and a tool for technical image quality analysis.
 
 ## Noteworthy
 
 Since CTlab is being widely distributed for the first time, it may contain unforeseen bugs. If you wish, you can report these to the Issues channel. Thank you!
+
+
+## Future version
+
+The next version will include a new Imaging target and a tool for technical image quality analysis.
