@@ -10,16 +10,16 @@ The CTlab has been created with MATLAB's app designer feature. It offers its use
 
 # Versions
 
--Windows version
--Mac version
+- Windows version
+- Mac version
 
 Since the use of Astra toolbox is not possible on Mac computers, a slightly separate version of the program has been developed for this purpose. The Mac version does not support iterative reconstruction algorithms or fanflat beam geometry in X-ray projection detection.
 
 # Dependencies
 
--MATLAB R2020b
--Astra Toolbox (Windows version)
--Spektr 3.0
+- MATLAB R2020b
+- Astra Toolbox (Windows version)
+- Spektr 3.0
 
 CTlab uses two external open source Matlab toolkits. Spektr 3.0 code is used to create a polychromatic X-ray spectrum for simulations and Astra toolbox is used to calculate reconstructions from polychromatic projection data (Not in the Mac version). The user must download both of the aforementioned Toolboxes and place them in Matlab's path in order for CTlab to work correctly. 
 
