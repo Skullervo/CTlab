@@ -15,6 +15,10 @@ CTlab uses two external open source Matlab toolkits. Spektr 3.0 code is used to 
 
 ![CT_lab_fig](https://user-images.githubusercontent.com/110446843/183819505-52c6244f-7684-43b9-95d0-7feff60b0779.png)
 
+## Documentation
+
+Further documentation and examples will be made available over time.
+
 
 ## Noteworthy
 
